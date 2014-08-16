@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Saturday, 16 August 2014 10:36:46
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,13 +34,13 @@ LIBS:DQM
 LIBS:arduino_shieldsNCL
 LIBS:led_rgb
 LIBS:MegaMiniSynthTest1-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MegaMiniSynth Test 1"
-Date "15 aug 2014"
+Date "16 aug 2014"
 Rev "1.0"
 Comp "Quentin McDonald"
 Comment1 ""
@@ -445,17 +445,6 @@ F 1 "PCA9685" H 6500 5050 50  0000 C CNN
 F 2 "MODULE" H 6500 4950 50  0001 C CNN
 F 3 "DOCUMENTATION" H 6500 4950 50  0001 C CNN
 	1    6500 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L RGBROTARYENCODER E1
-U 1 1 53EC01C1
-P 9400 4900
-F 0 "E1" H 9400 4800 50  0000 C CNN
-F 1 "RGBROTARYENCODER" H 9400 5150 50  0000 C CNN
-F 2 "MODULE" H 9400 4900 50  0001 C CNN
-F 3 "DOCUMENTATION" H 9400 4900 50  0001 C CNN
-	1    9400 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -885,22 +874,6 @@ Wire Wire Line
 Wire Wire Line
 	8400 4750 8400 4500
 Wire Wire Line
-	7900 5600 7900 5200
-Wire Wire Line
-	7250 5600 7900 5600
-Wire Wire Line
-	7900 4850 7800 4850
-Wire Wire Line
-	7800 4850 7800 5500
-Wire Wire Line
-	7800 5500 7250 5500
-Wire Wire Line
-	7700 4500 7900 4500
-Wire Wire Line
-	7700 5400 7700 4500
-Wire Wire Line
-	7250 5400 7700 5400
-Wire Wire Line
 	8650 4950 8500 4950
 Wire Wire Line
 	8500 4950 8500 4200
@@ -962,20 +935,6 @@ Wire Wire Line
 	4700 5750 4700 5100
 Wire Wire Line
 	4700 5100 5000 5100
-Wire Wire Line
-	5750 5500 5500 5500
-Wire Wire Line
-	5500 5300 5600 5300
-Wire Wire Line
-	5600 5300 5600 5400
-Wire Wire Line
-	5600 5400 5750 5400
-Wire Wire Line
-	5500 5100 5650 5100
-Wire Wire Line
-	5650 5100 5650 5300
-Wire Wire Line
-	5650 5300 5750 5300
 Wire Wire Line
 	9400 2900 9050 2900
 Wire Wire Line
@@ -1094,5 +1053,44 @@ F 2 "" H 6550 3850 60  0000 C CNN
 F 3 "" H 6550 3850 60  0000 C CNN
 	1    6550 3850
 	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 5200 7450 5200
+Wire Wire Line
+	7450 5200 7450 5400
+Wire Wire Line
+	7450 5400 7250 5400
+Wire Wire Line
+	7900 4850 7550 4850
+Wire Wire Line
+	7550 4850 7550 5500
+Wire Wire Line
+	7550 5500 7250 5500
+Wire Wire Line
+	7900 4500 7750 4500
+Wire Wire Line
+	7750 4500 7750 5600
+Wire Wire Line
+	7750 5600 7250 5600
+Wire Wire Line
+	5500 5300 5750 5300
+Wire Wire Line
+	5500 5100 5600 5100
+Wire Wire Line
+	5600 5100 5600 5400
+Wire Wire Line
+	5600 5400 5750 5400
+Wire Wire Line
+	5500 5500 5750 5500
+$Comp
+L RGBRotaryEncoder E1
+U 1 1 53EEFE8B
+P 9400 4900
+F 0 "E1" H 9400 4800 50  0000 C CNN
+F 1 "RGBRotaryEncoder" H 9400 5150 50  0000 C CNN
+F 2 "MODULE" H 9400 4900 50  0001 C CNN
+F 3 "DOCUMENTATION" H 9400 4900 50  0001 C CNN
+	1    9400 4900
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
