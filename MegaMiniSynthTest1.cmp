@@ -1,0 +1,248 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Saturday, 16 August 2014 10:39:00
+
+BeginCmp
+TimeStamp = /53EBE4E7;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EBE4F6;
+Reference = C2;
+ValeurCmp = 47uF;
+IdModule  = c_elec_6.3x5.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EBE551;
+Reference = C3;
+ValeurCmp = 47uF;
+IdModule  = c_elec_6.3x5.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EBF473;
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = c_elec_3x5.3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EE8EBC;
+Reference = C5;
+ValeurCmp = 100nf;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EBE471;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EBFAE8;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC01C1;
+Reference = E1;
+ValeurCmp = RGBROTARYENCODER;
+IdModule  = RGBRotaryEncoder;
+EndCmp
+
+BeginCmp
+TimeStamp = /53ED8261;
+Reference = F1;
+ValeurCmp = FERRITE;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC2272;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC1917;
+Reference = LED1;
+ValeurCmp = LED_ARBG;
+IdModule  = SMDRGBLED;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EBF645;
+Reference = OC1;
+ValeurCmp = 6N137;
+IdModule  = 6N137;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EBFA7A;
+Reference = P4;
+ValeurCmp = DIN_5;
+IdModule  = DIN_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EBFD21;
+Reference = R1;
+ValeurCmp = 8k2;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC09A3;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC04D0;
+Reference = R3;
+ValeurCmp = 200;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC04B2;
+Reference = R4;
+ValeurCmp = 100;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC0494;
+Reference = R5;
+ValeurCmp = 100;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC1944;
+Reference = R6;
+ValeurCmp = 300;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC1935;
+Reference = R7;
+ValeurCmp = 200;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC1926;
+Reference = R8;
+ValeurCmp = 200;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC1217;
+Reference = R9;
+ValeurCmp = 10k;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC1647;
+Reference = R10;
+ValeurCmp = 10K;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC2404;
+Reference = R11;
+ValeurCmp = 4k7;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC23F5;
+Reference = R12;
+ValeurCmp = 4k7;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EACD40;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_SHIELD;
+IdModule  = ARDUINO_SHIELD_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EBEA36;
+Reference = TP_5V1;
+ValeurCmp = TP_5V;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EBF3FB;
+Reference = TP_Gnd1;
+ValeurCmp = TP_Gnd;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC5C52;
+Reference = TP_MIDI1;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC5DAA;
+Reference = TP_Midi2;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC6164;
+Reference = TP_MidiOut1;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EBF416;
+Reference = TP_VBias1;
+ValeurCmp = Tl_VBias;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EAC0CD;
+Reference = U1;
+ValeurCmp = MC33269;
+IdModule  = MC33269;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EBF227;
+Reference = U2;
+ValeurCmp = TLE2426;
+IdModule  = TLE2426;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC01A3;
+Reference = U3;
+ValeurCmp = PCA9685;
+IdModule  = -TSSOP28;
+EndCmp
+
+EndListe
