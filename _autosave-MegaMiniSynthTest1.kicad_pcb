@@ -12,7 +12,7 @@
     (nets 65)
   )
 
-  (page A3)
+  (page A4)
   (layers
     (15 F.Cu signal)
     (0 B.Cu signal hide)
@@ -59,8 +59,8 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFFBF)
     (pcbplotparams
-      (layerselection 283148289)
-      (usegerberextensions true)
+      (layerselection 283148288)
+      (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.150000)
       (plotframeref false)
@@ -79,11 +79,11 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory MegaMiniSynthTest1/board.svg))
+      (outputdirectory ""))
   )
 
   (net 0 "")
