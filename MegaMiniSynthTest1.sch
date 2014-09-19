@@ -13,7 +13,6 @@ LIBS:xilinx
 LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
-LIBS:microchip
 LIBS:analog_switches
 LIBS:motorola
 LIBS:texas
